@@ -22,9 +22,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]                       
 
-#CORS_ALLOWED_ORIGINS = [
-#    "http://localhost:3000",  # React default port
-#]
+CORS_ALLOWED_ORIGINS = [
+    "https://render-deploy-expensetracker-reactjs.onrender.com",  # React default port
+]
 
 STORAGES = {
     "default": {
